@@ -9,6 +9,9 @@ getgenv().emojis = {
     spyrolove14,
     TheSCPgamer173,
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
+
 --[[ Commands --]] --[[
 --------------------------------------------------------------------------------------------------
 -- drop - Auto Drops
@@ -22,10 +25,9 @@ getgenv().emojis = {
 -- tp - goes to testbaseplate
 -- dope [Target] - dont use... (Not Finish)
 -- attach [Target] - dont use... (Not Finish)
---------------------------------------------------------------------------------------------------
 --]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
-
+Commands For Alt Control
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 --------------------------------------------------------------------------------------------------
 Dropped 7K Counter Will Count 7K On The Ground
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/counter.lua"))()
