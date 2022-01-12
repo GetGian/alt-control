@@ -1,4 +1,4 @@
-getgenv().tanga = "M4GNOLlA"
+getgenv().tanga = "Put Host Here"
 getgenv().prefix = "!"
 getgenv().chat = "Gian is pro"
 getgenv().credits = true -- gives credits notification every 5 minutes
