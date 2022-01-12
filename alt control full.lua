@@ -1,15 +1,16 @@
-getgenv().tanga = "Put Host Here"
-getgenv().prefix = "!"
-getgenv().chat = "Gian is pro"
-getgenv().credits = true -- gives credits notification every 5 minutes
+getgenv().tanga = "" -- Host Name
+getgenv().prefix = "!" -- Prefix Exmape | !drop
+getgenv().chat = "Gian is pro" -- Alts Will Chat Whatever is in here
+getgenv().webhook = "" -- Put Webhook Here If You Would Like To Get Pinged When Somebody Joins The Server You Will Also Get Notified Inside Roblox and Will @everyone in Discord
+getgenv().credits = true -- gives credits to me ;) notification every 5 minutes last for 30 seconds
 getgenv().emojis = {
     GetGian,
     larryflores777,
     spyrolove14,
     TheSCPgamer173,
 }
-
 --[[ Commands --]] --[[
+--------------------------------------------------------------------------------------------------
 -- drop - Auto Drops
 -- stop - Stops Dropping
 -- Antilag - self explanatory
@@ -21,6 +22,10 @@ getgenv().emojis = {
 -- tp - goes to testbaseplate
 -- dope [Target] - dont use... (Not Finish)
 -- attach [Target] - dont use... (Not Finish)
-
+--------------------------------------------------------------------------------------------------
 --]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
+
+--------------------------------------------------------------------------------------------------
+Dropped 7K Counter Will Count 7K On The Ground
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/counter.lua"))()
