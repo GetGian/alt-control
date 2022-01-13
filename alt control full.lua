@@ -3,6 +3,7 @@ getgenv().prefix = "!" -- self explanatory
 getgenv().chat = "Gian is pro" -- chats this when you say !chat
 getgenv().cpu = false -- if this is true you wouldnt be able to play on your alt accounts alternative "!cpu" command you can still play if you use this command
 getgenv().webhook = "" -- Put Webhook Here If You Would Like To Get Pinged When Somebody Joins The Server You Will Also Get Notified Inside Roblox and Will @everyone in Discord
+getgenv().notificationaudio = "http://www.roblox.com/asset/?id=3023237993" -- notification sound
 getgenv().credits = true -- gives credits notification every 5 minutes
 getgenv().emojihere = "🤡" -- put emoji you want on your alts
 getgenv().emojis = {
@@ -10,6 +11,7 @@ getgenv().emojis = {
 	Builderman,
 	gaykid123,
 }
+
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
 
