@@ -25,6 +25,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/m
 --[[ Commands --]] --[[
 --------------------------------------------------------------------------------------------------
 Commands For Alt Control
+-- setup - tps to the host and freezes then drops money
+-- god - god bullet and god block(auto blocks)
 -- drop - Auto Drops
 -- stop - Stops Dropping
 -- Antilag - self explanatory
