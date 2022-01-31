@@ -1,44 +1,24 @@
-------------------------------------------------------------------------------------------
-getgenv().tanga = "M4GNOLlA" -- Host
-getgenv().prefix = "!" -- self explanatory
-------------------------------------------------------------------------------------------
-getgenv().chat = "Gian is pro" -- chats this when you say !chat
-------------------------------------------------------------------------------------------
-getgenv().cpu = false -- if this is true you wouldnt be able to play on your alt accounts alternative "!cpu" command you can still play if you use this command
-------------------------------------------------------------------------------------------
-getgenv().webhook = "" -- Put Webhook Here If You Would Like To Get Pinged When Somebody Joins The Server You Will Also Get Notified Inside Roblox and Will @everyone in Discord
-getgenv().notificationaudio = "http://www.roblox.com/asset/?id=3023237993" -- notification sound
-------------------------------------------------------------------------------------------
-getgenv().credits = true -- gives credits notification every 5 minutes
-------------------------------------------------------------------------------------------
-getgenv().emojihere = "🤡" -- put emoji you want on your alts
-getgenv().emojis = {
-    ROBLOX, -- put roblox name if you want them to have emoji ;)
-	Builderman,
-	gaykid123,
-}
+getgenv().Hostt = "Gian" -- Put The Person That You Want To Have Control(Do Not Execute This On The Accout That's Gonna Get Money)
+getgenv().prefix = "!" -- Self Explanatory
+getgenv().chat = "Gian is pro" -- Example when i do !chat it will say whatever is in the Quotation mark
+getgenv().count = "" -- It Will Get A MoneyCounter(Only Counts 7k)
+--[[ Commands  ]]-- 
+-- drop - drops money
+-- stop - stops dropping money
+-- air - makes alts float and freezes them
+-- god - self explanatory
+-- crash - executes swagmode crash script
+-- freeze - freezes alt
+-- unfreeze - unfreezes alt
+-- bring - brings alts players to host
+-- reset - force reset
+-- chat - chats what ever is in getgenv().chat == "im a pro"
+-- wallet - equips wallet
 
 
-
+-- anti afk
+-- whenever your alt dies it will go back to the place it died
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
-
---[[ Commands --]] --[[
---------------------------------------------------------------------------------------------------
-Commands For Alt Control
--- setup - tps to the host and freezes then drops money
--- god - god bullet and god block(auto blocks)
--- drop - Auto Drops
--- stop - Stops Dropping
--- Antilag - self explanatory
--- sit - make alts sit
--- freeze - freeze alts
--- unfreeze - unfreezes alts
--- setup - teleports your alts then auto drops it also freezes all your alts
--- chat - it says the thing in getgenv().chat = "Gian is pro"
--- tp - goes to testbaseplate
--- dope [Target] - dont use... (Not Finish)
--- attach [Target] - dont use... (Not Finish)
---]]
 
 -- Dropped 7K Counter Will Count 7K On The Ground --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/counter.lua"))()
