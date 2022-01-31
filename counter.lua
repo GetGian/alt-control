@@ -6,7 +6,7 @@ wait(1);
 Notify({ 
 Description = "Keybind is P";
 Title = "Counter";
-Duration = 300;
+Duration = 15;
 });
 
 
