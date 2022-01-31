@@ -18,7 +18,7 @@ getgenv().count = "" -- It Will Get A MoneyCounter(Only Counts 7k)
 
 -- anti afk
 -- whenever your alt dies it will go back to the place it died
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua", true))() 
 
 -- Dropped 7K Counter Will Count 7K On The Ground --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/counter.lua"))()
