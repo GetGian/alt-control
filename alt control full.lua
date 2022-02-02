@@ -20,5 +20,17 @@ getgenv().chat = "Gian is pro" -- Example when i do !chat it will say whatever i
 -- whenever your alt dies it will go back to the place it died
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/2ndcontrol.lua", true))() 
 
+
+
+
+
+
+
+-- Webhook
+getgenv().webhook = "Put webhook here"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/Webhook", true))() 
+
+
 -- Dropped 7K Counter Will Count 7K On The Ground --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GetGian/alt-control/main/counter.lua"))()
